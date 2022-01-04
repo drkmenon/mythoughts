@@ -3,7 +3,7 @@ title: Setting up RStudio for scholarly writing
 author: Kishore Puthezhath
 date: '2021-01-17'
 slug: setting-up-rstudio
-draft: yes
+draft: no
 categories:
   - R
 tags:

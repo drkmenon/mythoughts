@@ -1,0 +1,81 @@
+baseurl: "https://mystrifes.com"
+languageCode: "en-us"
+title: "mystrifes"
+theme: "hugo-tania"
+paginate: 6
+
+disqusShortname: 
+
+params:
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji:
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo: 
+  
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes: false
+  
+  siteName: "My thoughts and ideas "
+  siteDesc: "my official blog"
+  author: "puthezhan"
+
+  colorScheme:
+    # Enable toggle colorScheme
+    # Default to true
+    toggle: true
+    # Default colorScheme
+    # Default to auto
+    default: auto
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow: 10
+
+  # Show your socail information with icon on index bio with `_index.md` content.
+  socialOptions:
+    dev-to:
+    email:
+    facebook:
+    github:
+    instagram:
+    linkedin:
+    medium:
+    stack-overflow:
+    steam:
+    telegram:
+    twitter:
+    twitch:
+    whatsapp:
+  
+  # Comments settings
+  comments:
+    enabled: false
+    provider: 
+
+    giscus:
+      repo: 
+      id: 
+      category:
+        name: 
+        id: 
+
+menu:
+  header:
+    - name: Articles
+      url: "/articles/"
+  footer:
+    - name: 
+      url: 
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]

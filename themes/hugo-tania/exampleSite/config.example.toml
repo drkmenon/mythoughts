@@ -1,3 +1,5 @@
+[markup.goldmark.renderer]
+  unsafe= true
 baseurl = "https://example.com"
 languageCode = "en-us"
 title = "Hugo Tania"

@@ -1,10 +1,12 @@
-baseurl = "https://example.com"
+[markup.goldmark.renderer]
+  unsafe= true
+baseurl = ""
 languageCode = "en-us"
 title = "Hugo Tania"
 theme = "hugo-tania"
 paginate = 6
 
-disqusShortname = "https-hugo-tania-netlify-app"
+disqusShortname = ""
 
 [params]
   # Emoji will show before the blog title on site navbar.

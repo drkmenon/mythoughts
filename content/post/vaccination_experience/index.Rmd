@@ -7,7 +7,7 @@ output:
     toc_float: true
 date: '2021-01-23'
 slug: COVID19 Vaccination
-categories: Personal experience 
+categories: Personal experience
 tags: Life
 subtitle: ''
 summary: ''
@@ -37,6 +37,7 @@ I understand that the AZD1222 (Covishield) vaccine is a replication-deficient si
 
 
 `I look at this astounding achievement as pure magic`.
+
 
 Today was the day I got the 1^st^ dose of COVID vaccine at the Amala Institute of Medical Sciences Vaccination center.
 

@@ -30,8 +30,33 @@ m=rnorm(100,168,5)
 f=rnorm(100,158,5)
 mf=as.data.frame(m,f)</code></pre>
 <p>We can see a difference in mean height.</p>
-<pre class="r"><code>boxplot(m,f)</code></pre>
+<pre class="r"><code>plot&lt;-boxplot(m,f)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>plot</code></pre>
+<pre><code>## $stats
+##          [,1]     [,2]
+## [1,] 156.9265 148.4282
+## [2,] 165.4483 154.7430
+## [3,] 168.5695 157.1139
+## [4,] 171.4668 160.5380
+## [5,] 180.0081 169.0305
+## 
+## $n
+## [1] 100 100
+## 
+## $conf
+##          [,1]     [,2]
+## [1,] 167.6186 156.1983
+## [2,] 169.5205 158.0295
+## 
+## $out
+## [1] 169.5399
+## 
+## $group
+## [1] 2
+## 
+## $names
+## [1] &quot;1&quot; &quot;2&quot;</code></pre>
 <pre class="r"><code>htdif=mean(m)-mean(f)
 round(htdif,digits = 1)</code></pre>
 <pre><code>## [1] 10.7</code></pre>

@@ -32,7 +32,8 @@ mf=as.data.frame(m,f)
 We can see a  difference in mean height.
 
 ```{r}
-boxplot(m,f)
+plot<-boxplot(m,f)
+plot
 ```
 
 ```{r}

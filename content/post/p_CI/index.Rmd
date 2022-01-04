@@ -30,13 +30,7 @@ mf=as.data.frame(m,f)
 ```
 
 ```{r}
-library(tidyverse)
-mf %>% 
-ggplot()+
-  geom_histogram(mapping = aes(m
-              ),position = 'identity',bins=70, alpha=.5, )+
-  geom_histogram(mapping = aes(f
-              ),position = 'identity',bins = 70, alpha=.5)+xlab("People")
+boxplot(m,f)
 ```
 ```{r}
 htdif=mean(m)-mean(f)

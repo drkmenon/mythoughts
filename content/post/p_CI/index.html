@@ -29,21 +29,7 @@ set.seed(1)
 m=rnorm(100,168,5)
 f=rnorm(100,158,5)
 mf=as.data.frame(m,f)</code></pre>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
-<pre><code>## ✓ tibble  3.1.5     ✓ dplyr   1.0.7
-## ✓ tidyr   1.1.4     ✓ stringr 1.4.0
-## ✓ readr   2.0.2     ✓ forcats 0.5.1
-## ✓ purrr   0.3.4</code></pre>
-<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>mf %&gt;% 
-ggplot()+
-  geom_histogram(mapping = aes(m
-              ),position = &#39;identity&#39;,bins=70, alpha=.5, )+
-  geom_histogram(mapping = aes(f
-              ),position = &#39;identity&#39;,bins = 70, alpha=.5)+xlab(&quot;People&quot;)</code></pre>
+<pre class="r"><code>boxplot(m,f)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <pre class="r"><code>htdif=mean(m)-mean(f)
 round(htdif,digits = 1)</code></pre>

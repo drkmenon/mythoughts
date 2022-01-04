@@ -60,7 +60,7 @@ but *p-value* is an answer to a question we didn't intend to ask. So what to do 
 
 # Traditional Answers
 
-## Fisher:
+## Fisher's view:
 
 Treat it as a measure of strength of evidence. This is not objectively satisfactory because, *p-value*=P(ø/H)≠P(H/ø)
 

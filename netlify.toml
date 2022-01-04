@@ -1,3 +1,5 @@
+[markup.goldmark.renderer]
+  unsafe= true
 [build]
 command = 'hugo'
 publish = 'public'

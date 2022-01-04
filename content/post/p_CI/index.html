@@ -29,6 +29,7 @@ set.seed(1)
 m=rnorm(100,168,5)
 f=rnorm(100,158,5)
 mf=as.data.frame(m,f)</code></pre>
+<p>We can see a difference in mean height.</p>
 <pre class="r"><code>boxplot(m,f)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <pre class="r"><code>htdif=mean(m)-mean(f)

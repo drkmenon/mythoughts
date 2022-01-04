@@ -29,9 +29,12 @@ f=rnorm(100,158,5)
 mf=as.data.frame(m,f)
 ```
 
+We can see a  difference in mean height.
+
 ```{r}
 boxplot(m,f)
 ```
+
 ```{r}
 htdif=mean(m)-mean(f)
 round(htdif,digits = 1)

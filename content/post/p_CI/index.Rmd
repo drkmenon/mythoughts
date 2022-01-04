@@ -23,14 +23,14 @@ slug: p value and Confidence Interval
 Assume that we have a normally distributed population of males and females with a mean height of 168cms and 158cms respectively.
 ```{r warning=FALSE}
 library(ggplot2)
+library(tidyverse)
 set.seed(1)
 m=rnorm(100,168,5)
 f=rnorm(100,158,5)
-mf=data.frame(m,f)
+mf=as.tibble(m,f)
 ```
 
 ```{r}
-library(tidyverse)
 mf %>% 
 ggplot()+
   geom_histogram(mapping = aes(m
